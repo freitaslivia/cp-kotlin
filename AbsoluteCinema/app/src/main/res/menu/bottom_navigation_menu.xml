@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_add_movie"
+        android:icon="@drawable/ic_add"
+        android:title="Adicionar" />
+
+    <item
+        android:id="@+id/nav_movies_to_watch"
+        android:icon="@drawable/ic_movies"
+        android:title="A Assistir" />
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/nav_team"
+        android:icon="@drawable/ic_team"
+        android:title="Equipe" />
+</menu>

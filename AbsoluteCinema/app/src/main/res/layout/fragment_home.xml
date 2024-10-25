@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title_about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sobre este aplicativo"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginBottom="8dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#000000"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/description_about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Este aplicativo foi desenvolvido para ajudar os usuários a organizar e gerenciar seus filmes e séries de forma simples e prática. Com uma interface intuitiva, ele permite adicionar, classificar e acompanhar o que você deseja assistir e o que já assistiu. Abaixo estão as principais funcionalidades do aplicativo:"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/features_about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Boas-vindas e Introdução: Uma tela inicial que oferece uma explicação simples do propósito do app, além de uma mensagem de boas-vindas personalizada.\n\n• Adicionar Filmes e Séries: Permite ao usuário criar um card com todos os detalhes de filmes ou séries que deseja assistir. O card inclui foto, nome, descrição, data de lançamento, a escolha da categoria (Filme ou Série), e um ranking de desejo de 0 a 10 para assistir ao conteúdo.\n\n• Lista de Filmes a Assistir: O usuário pode visualizar, editar ou remover filmes e séries que ainda não assistiu, além de mover o conteúdo para a lista de 'Assistidos' quando concluir.\n\n• Lista de Filmes Assistidos: Mantém um histórico dos filmes e séries que o usuário já assistiu, permitindo a edição de detalhes e a exclusão, se necessário.\n\n• Apresentação da Equipe: Uma tela dedicada à apresentação da equipe de desenvolvimento do app, com fotos e descrições dos membros."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="16dp" />
+
+    </LinearLayout>
+</ScrollView>
